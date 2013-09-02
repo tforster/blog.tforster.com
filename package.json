@@ -1,0 +1,21 @@
+{
+   "name": "blog.tforster.com",
+   "version": "0.1.0",
+   "private": true,
+   "scripts": {
+      "start": "node app"
+   },
+   "dependencies": {
+      "express": "3.1.0",
+      "jade":"0.34.x",
+      "poet":"1.0.x"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/tforster/blog.tforster.com.git"
+  },
+   "author": {
+    "name": "Troy Forster",
+    "url": "http://tforster.com"
+  }
+}

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "blog.tforster.com", ".", "{06DA6D5A-FF79-4993-AC89-D7BD6F28623A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/blog.tforster.com"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\github\tforster\blog.tforster.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\blog.tforster.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/blog.tforster.com"
+		Release.AspNetCompiler.PhysicalPath = "..\..\github\tforster\blog.tforster.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\blog.tforster.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54904"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06DA6D5A-FF79-4993-AC89-D7BD6F28623A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DA6D5A-FF79-4993-AC89-D7BD6F28623A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
