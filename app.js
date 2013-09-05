@@ -15,18 +15,41 @@ var settings = {}
 var poet = Poet(app, {
    posts: "./_posts/",
    postsPerPage: 5,
-   metaFormat: "json"
+   metaFormat: "json",
+   readMoreLink: function (post) {
+      return "";
+   }
 });
 
 
 poet.watch(function () {
    console.log("poet watcher reloaded");
-}).init().then(function () {
+}).init(function (err, poet) {
+   for (var prop in posts) {
+      var post = (posts[prop]);
+      post.preview = post.preview.replace(/<img src=\"\/files/gi, Config.imageReplacement);
+      post.content = post.content.replace(/<img src=\"\/files/gi, Config.imageReplacement);
+   }
+}).then(function () {
    console.log("poet watcher initialized");
 });
 
 
-poet.init().then(function () {
+// Rewrite image URIs that are relative to files to account for dev, stage, prod environments
+poet.init(function (err, poet) {
+   var posts = poet.posts;
+   try {
+      for (var prop in posts) {
+         var post = (posts[prop]);
+         post.preview = post.preview.replace(/<img src=\"\/files/gi, Config.imageReplacement);
+         post.content = post.content.replace(/<img src=\"\/files/gi, Config.imageReplacement);
+      }
+   }
+   catch (e) {
+      console.log("ER:", e.message);
+   }
+
+}).then(function () {
    console.log("poet initialized");
 });
 
@@ -71,6 +94,8 @@ app.configure(function () {
    if (Config.port) {
       app.set("port", parseInt(Config.port));
    }
+
+   
    app.use(express.favicon());
    app.use(express.logger("dev"));
    app.use(express.bodyParser());

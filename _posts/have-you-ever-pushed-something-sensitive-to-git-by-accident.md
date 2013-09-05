@@ -1,4 +1,4 @@
-﻿{{{
+{{{
   "title": "Have You Ever Pushed Something Sensitive to Git by Accident?",
   "tags": ["github"],
   "category": "development",

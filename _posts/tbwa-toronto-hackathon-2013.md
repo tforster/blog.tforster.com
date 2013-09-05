@@ -1,9 +1,11 @@
-﻿{{{
+{{{
   "title": "TBWA\\Toronto Hackathon 2013",
   "tags": ["TBWA\\Toronto"],
   "category": "projects",
-  "date": "2013/08/17"
-}}}
+  "date": "2013/09/01",
+  "test":"testXXXX",
+  "preview":"Earlier this year I organized and hosted a highly successful 48 hour company-wide hackathon. It differed significantly from traditional hackathons in that less than 20% of the participants had any significant technical background.![image](/files/project05.jpg)"
+}}
 
 Earlier this year I organized and hosted a highly successful 48 hour company-wide hackathon. It differed significantly from traditional hackathons in that less than 20% of the participants had any significant technical background. The ultimate goal of this hackathon was several-fold and included:
 boosting morale
