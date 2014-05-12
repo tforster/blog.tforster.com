@@ -1,0 +1,8 @@
+﻿server {
+   listen            80;
+   server_name       blog.tforster.com;
+   access_log        /srv/www/logs/blog.tforster.com.nginx.log;
+   location / {
+      proxy_pass    http://localhost:3000
+   }
+}

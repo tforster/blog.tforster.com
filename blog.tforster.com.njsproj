@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{586a766d-f87d-4724-9873-78addd989e2e}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>app.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="blog.tforster.com.conf" />
+    <Content Include="blog.tforster.com.nginx" />
+    <Content Include="config.json" />
+    <Content Include="to-do.txt" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Compile Include="app.js" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="_posts\boardroom-clock.md" />
+    <Content Include="_posts\digital-coffee-table.md" />
+    <Content Include="_posts\google-hangout-on-air-lamp.md" />
+    <Content Include="_posts\have-you-ever-pushed-something-sensitive-to-git-by-accident.md" />
+    <Content Include="_posts\ice-clock.md" />
+    <Content Include="_posts\makey-makey-tetris.md" />
+    <Content Include="_posts\micro-service-architecture.md" />
+    <Content Include="_posts\mini-amplifier.md" />
+    <Content Include="_posts\power-in-g.md" />
+    <Content Include="_posts\showroom-platform.md" />
+    <Content Include="_posts\tbwa-toronto-hackathon-2013.mdx" />
+    <Content Include="import\posts.json" />
+    <Compile Include="import\Utils.js" />
+    <Compile Include="import\tumblr2json.js" />
+    <Content Include="views\categories.jade" />
+    <Content Include="views\category.jade" />
+    <Content Include="views\layout.jade" />
+    <Content Include="views\page.jade" />
+    <Content Include="views\post.jade" />
+    <Content Include="views\rss.jade" />
+    <Content Include="views\sitemap.jade" />
+    <Content Include="views\tag.jade" />
+    <Content Include="views\tags.jade" />
+    <Content Include="public\css\bootstrap-responsive.css" />
+    <Content Include="public\css\bootstrap-responsive.min.css" />
+    <Content Include="public\css\bootstrap.css" />
+    <Content Include="public\css\bootstrap.min.css" />
+    <Content Include="public\css\font-awesome-ie7.min.css" />
+    <Content Include="public\css\font-awesome.css" />
+    <Content Include="public\css\font-awesome.min.css" />
+    <Content Include="public\files\icetubeclock2-lrg.jpg" />
+    <Content Include="public\files\on-air-lamp.jpg" />
+    <Content Include="public\files\project05-w370.jpg" />
+    <Content Include="public\files\project05.jpg" />
+    <Content Include="public\files\vfd-tube.jpg" />
+    <Content Include="public\img\project01.png" />
+    <Content Include="public\img\project02.png" />
+    <Content Include="public\img\project03.png" />
+    <Content Include="public\img\project04.png" />
+    <Content Include="public\img\intro-bg.jpg" />
+    <Content Include="public\img\project-bg.jpg" />
+    <Content Include="public\img\thumb.jpg" />
+    <Compile Include="public\js\bootstrap.min.js" />
+    <Compile Include="public\js\ga.js" />
+    <Compile Include="public\js\ga.min.js" />
+    <Compile Include="public\js\jquery-1.8.2.min.js" />
+    <Compile Include="public\js\modernizr.js" />
+    <Compile Include="public\js\modernizr.min.js" />
+    <Content Include="views\includes\pagination.jade" />
+    <Content Include="views\includes\postSnippet.jade" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git" />
+    <Folder Include=".git\hooks" />
+    <Folder Include=".git\info" />
+    <Folder Include=".git\logs" />
+    <Folder Include=".git\logs\refs" />
+    <Folder Include=".git\logs\refs\heads" />
+    <Folder Include=".git\logs\refs\remotes" />
+    <Folder Include=".git\logs\refs\remotes\origin" />
+    <Folder Include=".git\objects" />
+    <Folder Include=".git\objects\00" />
+    <Folder Include=".git\objects\03" />
+    <Folder Include=".git\objects\04" />
+    <Folder Include=".git\objects\05" />
+    <Folder Include=".git\objects\09" />
+    <Folder Include=".git\objects\0a" />
+    <Folder Include=".git\objects\0b" />
+    <Folder Include=".git\objects\0f" />
+    <Folder Include=".git\objects\14" />
+    <Folder Include=".git\objects\15" />
+    <Folder Include=".git\objects\18" />
+    <Folder Include=".git\objects\1a" />
+    <Folder Include=".git\objects\1f" />
+    <Folder Include=".git\objects\21" />
+    <Folder Include=".git\objects\22" />
+    <Folder Include=".git\objects\24" />
+    <Folder Include=".git\objects\25" />
+    <Folder Include=".git\objects\28" />
+    <Folder Include=".git\objects\2d" />
+    <Folder Include=".git\objects\31" />
+    <Folder Include=".git\objects\3c" />
+    <Folder Include=".git\objects\3d" />
+    <Folder Include=".git\objects\3e" />
+    <Folder Include=".git\objects\3f" />
+    <Folder Include=".git\objects\43" />
+    <Folder Include=".git\objects\48" />
+    <Folder Include=".git\objects\49" />
+    <Folder Include=".git\objects\4d" />
+    <Folder Include=".git\objects\4e" />
+    <Folder Include=".git\objects\4f" />
+    <Folder Include=".git\objects\58" />
+    <Folder Include=".git\objects\5a" />
+    <Folder Include=".git\objects\5f" />
+    <Folder Include=".git\objects\6c" />
+    <Folder Include=".git\objects\75" />
+    <Folder Include=".git\objects\76" />
+    <Folder Include=".git\objects\7a" />
+    <Folder Include=".git\objects\7c" />
+    <Folder Include=".git\objects\7d" />
+    <Folder Include=".git\objects\7e" />
+    <Folder Include=".git\objects\8b" />
+    <Folder Include=".git\objects\8e" />
+    <Folder Include=".git\objects\8f" />
+    <Folder Include=".git\objects\90" />
+    <Folder Include=".git\objects\a6" />
+    <Folder Include=".git\objects\a9" />
+    <Folder Include=".git\objects\ad" />
+    <Folder Include=".git\objects\ae" />
+    <Folder Include=".git\objects\b1" />
+    <Folder Include=".git\objects\b7" />
+    <Folder Include=".git\objects\b8" />
+    <Folder Include=".git\objects\bd" />
+    <Folder Include=".git\objects\c2" />
+    <Folder Include=".git\objects\c4" />
+    <Folder Include=".git\objects\c6" />
+    <Folder Include=".git\objects\c7" />
+    <Folder Include=".git\objects\c8" />
+    <Folder Include=".git\objects\c9" />
+    <Folder Include=".git\objects\cb" />
+    <Folder Include=".git\objects\d0" />
+    <Folder Include=".git\objects\d4" />
+    <Folder Include=".git\objects\d7" />
+    <Folder Include=".git\objects\dc" />
+    <Folder Include=".git\objects\df" />
+    <Folder Include=".git\objects\e1" />
+    <Folder Include=".git\objects\e4" />
+    <Folder Include=".git\objects\e5" />
+    <Folder Include=".git\objects\ef" />
+    <Folder Include=".git\objects\f0" />
+    <Folder Include=".git\objects\f3" />
+    <Folder Include=".git\objects\f7" />
+    <Folder Include=".git\objects\f8" />
+    <Folder Include=".git\objects\f9" />
+    <Folder Include=".git\objects\fa" />
+    <Folder Include=".git\objects\info" />
+    <Folder Include=".git\objects\pack" />
+    <Folder Include=".git\refs" />
+    <Folder Include=".git\refs\heads" />
+    <Folder Include=".git\refs\remotes" />
+    <Folder Include=".git\refs\remotes\origin" />
+    <Folder Include=".git\refs\tags" />
+    <Folder Include="_posts" />
+    <Folder Include="import" />
+    <Folder Include="public" />
+    <Folder Include="public\css" />
+    <Folder Include="public\files" />
+    <Folder Include="public\font" />
+    <Folder Include="public\img" />
+    <Folder Include="public\js" />
+    <Folder Include="views" />
+    <Folder Include="views\includes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

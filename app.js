@@ -1,5 +1,5 @@
 "strict mode"
-
+var path = require("path"), basePath = path.dirname(require.main.filename);
 var express = require("express")
    , http = require("http")
    , path = require("path")
@@ -13,7 +13,7 @@ var settings = {}
 
 
 var poet = Poet(app, {
-   posts: "./_posts/",
+   posts: path.join(basePath, "/_posts/"),
    postsPerPage: 5,
    metaFormat: "json",
    readMoreLink: function (post) {
